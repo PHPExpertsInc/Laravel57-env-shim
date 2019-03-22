@@ -1,0 +1,36 @@
+{
+    "name": "phpexperts/laravel-env-shim",
+    "description": "Backward compatible support for Laravel's pre-5.8 env() function.",
+    "keywords": [
+        "laravel",
+        "5.7",
+        "env",
+        "shim"
+    ],
+    "homepage": "https://github/phpexpertsinc/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP Experts, Inc.",
+            "homepage": "https://www.phpexperts.pro/"
+        },
+        {
+            "name": "Theodore R. Smith",
+            "homepage": "https://www.linkedin.com/in/hopeseekr"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "files": [
+            "src/env-shim.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": { "PHPExperts\\" : "tests/" }
+    }
+}
